@@ -1,0 +1,18 @@
+.crossword-grid {
+  display: grid;
+  grid-gap: none;
+  background-color: #dedede;
+}
+
+.word {
+  list-style: none;
+}
+
+.letter input {
+  outline: none;
+  border: 1px solid #aacc88;
+  height: 50px;
+  width: 30px;
+  padding-left: 20px;
+  font-size: 30px;
+}
