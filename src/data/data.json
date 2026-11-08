@@ -1,14 +1,44 @@
 [
   {
     "definition": "Hikaru, amerykańsko-japoński szachista.",
-    "answer": "NAKAMURA"
+    "answer": "NAKAMURA",
+    "cells": [
+      [4, 3],
+      [4, 4],
+      [4, 5],
+      [4, 6],
+      [4, 7],
+      [4, 8],
+      [4, 9],
+      [4, 10]
+    ],
+    "direction": "right"
   },
   {
     "definition": "Umowna nazwa indyjskiego przemysłu filmowego z siedzibą w Bombaju.",
-    "answer": "BOLLYWOOD"
+    "answer": "BOLLYWOOD",
+    "cells": [
+      [6, 3],
+      [6, 4],
+      [6, 5],
+      [6, 6],
+      [6, 7],
+      [6, 8],
+      [6, 9],
+      [6, 10]
+    ],
+    "direction": "right"
   },
   {
     "definition": "W bluzie, lub królewski",
-    "answer": "ZAMEK"
+    "answer": "ZAMEK",
+    "cells": [
+      [2, 7],
+      [3, 7],
+      [4, 7],
+      [5, 7],
+      [6, 7]
+    ],
+    "direction": "down"
   }
 ]

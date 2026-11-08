@@ -1,26 +1,26 @@
 import { useState } from "react";
 import "./App.css";
-import Data from "./data/data.json";
+import rawData from "./data/data.json";
 import { Word } from "./components/Word";
 import { Letter } from "./components/Letter";
 
 function App() {
+  type WordData = {
+    definition: string;
+    answer: string;
+    cells: [number, number][];
+    direction: "down" | "right";
+  };
+
+  const Data = rawData as WordData[];
   return (
     <form action="" className="crossword-grid">
       {Data.map((q) => (
         <Word
           word={q.answer}
           definition={q.definition}
-          cells={[
-            [3, 3],
-            [3, 4],
-            [3, 5],
-            [3, 6],
-            [3, 7],
-            [3, 8],
-            [3, 9],
-            [3, 10],
-          ]}
+          cells={q.cells}
+          direction={q.direction}
         />
       ))}
     </form>
