@@ -36,25 +36,6 @@ export const Word = (props: WordProps) => {
       >
         {props.definition}
       </li>
-
-      {/* {props.cells.map((position, i) => {
-        const key = `${position[0]}-${position[1]}`;
-
-        // if (props.renderedPositions.has(key)) {
-        //   return null;
-        // }
-
-        // props.renderedPositions.add(key);
-
-        return (
-          <Letter
-            key={key}
-            position={position}
-            value={mapped[i]}
-            direction={props.direction}
-          />
-        );
-      })} */}
     </ul>
   );
 };

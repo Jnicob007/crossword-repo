@@ -60,14 +60,6 @@ function App() {
   const total = renderedCells.size;
   const percent = total === 0 ? 0 : Math.round((correctCount / total) * 100);
 
-  const endCrossword = (e: Event) => {
-    e.preventDefault();
-
-    // for(const q of renderedCells){
-    //   if(q[1].value ===)
-    // }
-  };
-
   return (
     <div className="main-container">
       <form action="" className="crossword-grid">
