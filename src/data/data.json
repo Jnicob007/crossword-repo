@@ -15,10 +15,9 @@
     "direction": "right"
   },
   {
-    "definition": "Umowna nazwa indyjskiego przemysłu filmowego z siedzibą w Bombaju.",
-    "answer": "BOLLYWOOD",
+    "definition": "Przerabiana w sztuczny jedwab.",
+    "answer": "WISKOZA",
     "cells": [
-      [6, 3],
       [6, 4],
       [6, 5],
       [6, 6],
@@ -30,7 +29,42 @@
     "direction": "right"
   },
   {
-    "definition": "W bluzie, lub królewski",
+    "definition": "Ojciec mitologicznego Ikara.",
+    "answer": "DEDAL",
+    "cells": [
+      [9, 6],
+      [9, 7],
+      [9, 8],
+      [9, 9],
+      [9, 10]
+    ],
+    "direction": "right"
+  },
+  {
+    "definition": "Espresso o wydłużonym czasie parzenia.",
+    "answer": "LUNGO",
+    "cells": [
+      [11, 2],
+      [11, 3],
+      [11, 4],
+      [11, 5],
+      [11, 6]
+    ],
+    "direction": "right"
+  },
+  {
+    "definition": "Najwyższy i najbardziej aktywny stratowulkan w Europie.",
+    "answer": "ETNA",
+    "cells": [
+      [2, 3],
+      [3, 3],
+      [4, 3],
+      [5, 3]
+    ],
+    "direction": "down"
+  },
+  {
+    "definition": "W bluzie, lub królewski.",
     "answer": "ZAMEK",
     "cells": [
       [2, 7],
@@ -38,6 +72,33 @@
       [4, 7],
       [5, 7],
       [6, 7]
+    ],
+    "direction": "down"
+  },
+  {
+    "definition": "Szósty pod względem powierzchni stan w USA.",
+    "answer": "ARIZONA",
+    "cells": [
+      [3, 9],
+      [4, 9],
+      [5, 9],
+      [6, 9],
+      [7, 9],
+      [8, 9],
+      [9, 9]
+    ],
+    "direction": "down"
+  },
+  {
+    "definition": "Hala zdjęciowa.",
+    "answer": "STUDIO",
+    "cells": [
+      [6, 6],
+      [7, 6],
+      [8, 6],
+      [9, 6],
+      [10, 6],
+      [11, 6]
     ],
     "direction": "down"
   }
